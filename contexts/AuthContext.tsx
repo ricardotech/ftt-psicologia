@@ -47,12 +47,12 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
   async function signIn({ email, password }: ISignInRequest) {
     setUser({
       email: email,
-      name: "Ricardo Fonseca",
+      name: "User Name",
     });
     return {
       user: {
         email: email,
-        name: "Ricardo Fonseca",
+        name: "User Name",
       },
       token: "",
     };
